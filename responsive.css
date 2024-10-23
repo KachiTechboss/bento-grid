@@ -1,0 +1,118 @@
+@media (max-width: 719px) {
+    body{
+        padding: 20px;
+    
+    }
+    #container{
+        grid-template-columns: repeat(1, 1fr);
+    
+       
+        grid-template-areas:
+         "div1"
+         "div2"
+         "div3"
+         "div4"
+         "div5"
+         "div6"
+         "div7"
+         "div8";
+    }
+    .image{
+        width: 50%;
+        margin-top: 0rem;
+    }
+    .create-post{
+        grid-area: div7;
+        width: 100%;
+
+      
+    }
+    .create-post h1{
+        padding-top: 0;
+     
+    }
+    .social-media{
+        text-align: center;
+        grid-area: div1;
+        width: 100%;
+        margin-bottom: 0;
+     
+  
+    }
+    .social-media h1{
+        font-size: 35px;
+        font-weight: normal;
+    }
+    
+    .schedule-img{
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+        padding-top: 0;
+     }
+     .schedule-post{
+         grid-area: div4;
+         width: 100%;
+         overflow: hidden;
+         margin-left: 0;
+      
+        
+         
+     
+     }
+     .AI-content{
+        grid-area: div8;
+        width: 100%;
+    }
+    .AI-img{
+        width: 100%;
+        padding-top: 0;
+    }
+    .multiple-accounts{
+        grid-area: div2;
+        margin-top: 0;
+        width: 100%;
+       
+      
+      
+    
+    }
+    .img{
+        width: 100%;
+        margin-right: 0;
+    }
+    .consistent-img{
+        margin-bottom: 0;
+        width: 100%;
+        align-content: center;
+        
+    }
+    .consistent-post{
+        grid-area: div3;
+        margin-top: 0;
+        width: 100%;
+        overflow: hidden;
+     
+     
+    }
+    .audience-post{
+        grid-area: div6;
+        width: 100%;
+      
+    }
+    .audience-img{
+        width: 100%;
+        padding-top: 0;
+    }
+    .grow-post{
+        display: block;
+        text-align: center;
+        grid-area: div5;
+        width: 100%;
+       
+       
+    }
+    .grow-img{
+        width: 100%;
+}
+}
